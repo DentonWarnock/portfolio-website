@@ -2242,7 +2242,7 @@ input, select, textarea {
 				}
 
 				#main > section.dark a {
-					color: #black;
+					color: black;
 					border-color: inherit;
 				}
 
