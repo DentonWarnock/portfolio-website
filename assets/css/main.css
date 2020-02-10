@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Added by D */
+.bottom-hero-socal {
+	margin-top:3rem;
+}
+
+.resume {
+	margin-top:3rem;
+}
+
+
 /* Basic */
 
 	html {
@@ -1750,7 +1760,7 @@ input, select, textarea {
 
 	.image {
 		display: inline-block;
-		border: 0;
+		border: 0;		
 	}
 
 		.image img {

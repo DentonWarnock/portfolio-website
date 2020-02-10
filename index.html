@@ -6,13 +6,31 @@
 -->
 <html>
   <head>
-    <title>Portfolio - Denton Warnock</title>
+    <title>Denton Warnock</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -57,13 +75,15 @@
       <div class="bottom">
         <!-- Social Icons -->
         <ul class="icons">
+          <li><a href="https://www.linkedin.com/in/denton-warnock/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
           <li>
             <a
               href="https://twitter.com/dentonwarnock"
-              class="icon brands fa-twitter"
+              class="icon brands fa-twitter"              
               ><span class="label">Twitter</span></a
             >
           </li>
+
           <!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
           <li>
             <a
@@ -72,7 +92,7 @@
               ><span class="label">Github</span></a
             >
           </li>
-          <!--li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+          <!--li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></link>-->
           <li>
             <a
               href="mailto:dentonwarnock@gmail.com"
@@ -95,8 +115,43 @@
           </header>
 
           <footer>
-            <a href="#portfolio" class="button scrolly">View my work</a>
+            <a href="#portfolio" class="button scrolly">View my work</a>            
           </footer>
+          <div class="resume">
+            <a href="./images/Resume_Denton_Warnock.pdf" class="button scrolly">Resume</a>
+          </div>          
+          <div class="bottom-hero-socal">
+            <!-- Social Icons -->
+            <ul class="icons">
+              <li><a href="https://www.linkedin.com/in/denton-warnock/" class="icon brands fa-linkedin" style="color:#9ececc"><span class="label">LinkedIn</span></a></li>
+              <li>
+                <a
+                  href="https://twitter.com/dentonwarnock"
+                  class="icon brands fa-twitter"
+                  style="color:#9ececc"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              
+              <li>
+                <a
+                  href="https://github.com/DentonWarnock"
+                  class="icon brands fa-github"
+                  style="color:#9ececc"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <!--li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></link>-->
+              <li>
+                <a
+                  href="mailto:dentonwarnock@gmail.com"
+                  class="icon solid fa-envelope"
+                  style="color:#9ececc"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -108,30 +163,75 @@
           </header>
 
           <p>
-            Some of my recent projects hosted on GitHub. Be sure to check back
-            often for updates.
+            My most recent work. Click the images to view the live sites.
           </p>
 
           <div class="row">
             <div class="col-4 col-12-mobile">
               <article class="item">
                 <a
-                  href="https://dentonwarnock.github.io/responsive-web-design-I/"
+                  href="https://front-end-git-vh-finalchanges.build-week-saltiest-hacker-news-trolls.now.sh/"
                   class="image fit"
-                  ><img src="images/responsive_screenshot.jpg" alt=""
+                  ><img src="images/u-mad-bro.PNG" alt=""
                 /></a>
                 <header>
-                  <h3>My first fully responsive web design</h3>
+                  <h3>
+                    Arrregator and sorter of the saltiest comments of the
+                    'hacker news' website. Built search bar, favorite comments
+                    feature, and edit user form with React Hooks, Context API,
+                    Ant-Design, and Styled Components.
+                  </h3>
+                  <a
+                    href="https://github.com/Build-Week-Saltiest-Hacker-News-Trolls/Front-End"
+                    target="_blank"
+                    ><img
+                      src="./images/github.png"
+                      alt="Github Icon"
+                      style="width: 5rem; height: 5rem"
+                  /></a>
                 </header>
               </article>
+              
+            </div>
+            <div class="col-4 col-12-mobile">
               <article class="item">
-                <a href="https://denton-todo.now.sh/" class="image fit"
-                  ><img src="images/todo.PNG" alt="todo app"
+                <a
+                  href="https://fresh-finds-farmers-market.now.sh/"
+                  class="image fit"
+                  ><img src="images/farmer-dashboard.PNG" alt=""
                 /></a>
                 <header>
-                  <h3>A todo app using the reducer function.</h3>
+                  <h3>
+                    Marketing site for farmers to sell produce directly to local
+                    customers. Built with React, Context API, and Styled
+                    Components.
+                  </h3>
+                  <a
+                    href="https://github.com/Farm-Fresh-Produce-Build-Week/The-Real-Front-End"
+                    target="_blank"
+                    ><img
+                      src="./images/github.png"
+                      alt="Github Icon"
+                      style="width: 5rem; height: 5rem"
+                  /></a>
                 </header>
               </article>
+              <!-- <article class="item">
+                <a href="https://scoreboard-dw.netlify.com" class="image fit"
+                  ><img src="images/scoreboard.PNG" alt=""
+                /></a>
+                <header>
+                  <h3>
+                    Score board app built with React hooks. 
+                  </h3>
+                  <a href="https://github.com/DentonWarnock/react-american-football-scoreboard" target="_blank"
+                    ><img
+                      src="./images/github.png"
+                      alt="Github Icon"
+                      style="width: 5rem; height: 5rem"
+                  /></a>
+                </header>
+              </article> -->
             </div>
             <div class="col-4 col-12-mobile">
               <article class="item">
@@ -142,26 +242,18 @@
                 /></a>
                 <header>
                   <h3>
-                    UI design I created for my first team project. About Us page
-                    show the entire team and the layout was my first CSS Grid
+                    Fully responsive custom UI design with HTML5, and LESS. CSS flexbox and grid utilized for page layouts.
                     design.
                   </h3>
+                  <a href="https://github.com/party-planner-pt/BW-PT-PartyPlanner-UI-DW" target="_blank"
+                    ><img
+                      src="./images/github.png"
+                      alt="Github Icon"
+                      style="width: 5rem; height: 5rem"
+                  /></a>
                 </header>
               </article>
-              <article class="item">
-                <a href="https://scoreboard-dw.netlify.com" class="image fit"
-                  ><img src="images/scoreboard.PNG" alt=""
-                /></a>
-                <header>
-                  <h3>
-                    A score board app built with React hooks. I would like to
-                    turn this into a full on game for a future project.
-                  </h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
+              <!-- <article class="item">
                 <a href="https://calculator-dw.netlify.com/" class="image fit"
                   ><img src="images/calculator.PNG" alt=""
                 /></a>
@@ -170,9 +262,15 @@
                     Calculator App built with React hooks. I am continually
                     working on the functionality.
                   </h3>
-                </header>
+                  <a href="https://github.com/DentonWarnock/lambda-calculator" target="_blank"
+                    ><img
+                      src="./images/github.png"
+                      alt="Github Icon"
+                      style="width: 5rem; height: 5rem"
+                  /></a>
+                </header> -->
               </article>
-              <article class="item">
+              <!-- <article class="item">
                 <a href="https://github.com/DentonWarnock" class="image fit"
                   ><img src="images/github_homepage_screenshot.jpg" alt=""
                 /></a>
@@ -181,8 +279,14 @@
                     More projects coming soon! Checkout what I'm working on over
                     at GitHub.
                   </h3>
+                  <a href="https://github.com/" target="_blank"
+                    ><img
+                      src="./images/github.png"
+                      alt="Github Icon"
+                      style="width: 5rem; height: 5rem"
+                  /></a>
                 </header>
-              </article>
+              </article> -->
               <!-- <article class="item">
 										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 										<header>
@@ -206,14 +310,11 @@
           /></a>
 
           <p>
-            Hi, my name is Denton Warnock and I'm currently studying web
-            development at Lambda School. I have lived in Sacramento California
-            for most of my life, and I graduated from California State
+            Hi, my name is Denton Warnock and I'm currently studying to be a full stack web
+            developer in an 18 month intensive program at Lambda School Coding Academy. I live in Sacramento California with my wife and daughter. I graduated from California State
             University Sacramento in 2006 with a degree in Business
-            Administration Finance. I am excited to start a new career in web
-            development for which I have always had a passion and strong
-            interest for ever since getting my first computer with an internet
-            connection. I love to code, create, learn, play and problem solve!
+            Administration Finance. I have previously been a restaurant, casino, and insurance professional and I am excited to start a new career in web
+            development. I have always had a passion for computers, learning, figuring things out, and solving problems which has motivated me to learn to code!
           </p>
         </div>
       </section>
@@ -226,11 +327,40 @@
           </header>
 
           <p>
-            Please reach out to me on Twitter, LinkedIn, or send me a message
-            below.
+            Please reach out to me on LinkedIn, Twitter, or by Email
           </p>
 
-          <form method="post" action="#">
+          <div class="bottom">
+            <!-- Social Icons -->
+            <ul class="icons">
+              <li><a href="https://www.linkedin.com/in/denton-warnock/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              <li>
+                <a
+                  href="https://twitter.com/dentonwarnock"
+                  class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+              <li>
+                <a
+                  href="https://github.com/DentonWarnock"
+                  class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <!--li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></link>-->
+              <li>
+                <a
+                  href="mailto:dentonwarnock@gmail.com"
+                  class="icon solid fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- <form method="post" action="#">
             <div class="row">
               <div class="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -245,7 +375,7 @@
                 <input type="submit" value="Send Message" />
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
       </section>
     </div>
@@ -254,7 +384,7 @@
     <div id="footer">
       <!-- Copyright -->
       <ul class="copyright">
-        <li>&copy; 2019 <span>Denton Warnock</span> All rights reserved.</li>
+        <li>&copy; 2020 <span>Denton Warnock </span>- All rights reserved</li>
         <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
       </ul>
     </div>
